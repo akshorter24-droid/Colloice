@@ -8,7 +8,7 @@ let localStream = null;
 let ws = null; 
 let peerConnection = null;
 let isCaller = false; 
-const WS_SERVER_URL = 'ws://localhost:8081';
+const WS_SERVER_URL = 'wss://https://backend-ntgs.onrender.com';
 
 // STUN server configuration for NAT traversal
 const configuration = {
@@ -238,4 +238,5 @@ const configuration = {
     ]
 };
     }
+
 }
