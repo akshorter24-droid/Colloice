@@ -10,13 +10,6 @@ let peerConnection = null;
 let isCaller = false; 
 const WS_SERVER_URL = 'wss://backend-ntgs.onrender.com';
 
-// STUN server configuration for NAT traversal
-const configuration = {
-    iceServers: [
-        { urls: 'stun:stun.l.google.com:19302' }
-
-        // In script.js
-
 const configuration = {
     iceServers: [
         // 1. Keep the Public STUN Server (Essential for initial discovery)
@@ -262,5 +255,6 @@ const configuration = {
     }
 
 }
+
 
 
