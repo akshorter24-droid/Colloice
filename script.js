@@ -19,13 +19,13 @@ const configuration = {
         {
             // Replace with the specific TURN URL given by Xirsys 
             // (Note: It must start with 'turn:...')
-            urls: 'turn:hk-turn1.xirsys.com:3478?transport=tcp', 
+            urls: 'turn:bn-turn1.xirsys.com:3478?transport=tcp', 
             
             // Replace with the actual username provided by Xirsys
-            username: 'u9VacupJM_E1mXU7gFym0wZuuZJ68t9bHtWrh_qv-mFnzwbIR3PlEzLlIarES25FAAAAAGkA7flzY29yZ2U=',
+            username: 'EenUjZywcdkpWNpIMjG8jfGVRm7O7JGFA8Mh_IgO9qMdq2IDY8N430h2MsH1Our8AAAAAGkA9GZzY29yZ2U=',
             
             // Replace with the actual credential/password provided by Xirsys
-            credential: '6bb8b2ea-b41a-11f0-b782-0242ac120004'
+            credential: '40389550-b41e-11f0-8ff5-0242ac140004'
         }
     ]
 };
@@ -255,6 +255,7 @@ const configuration = {
     }
 
 }
+
 
 
 
