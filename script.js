@@ -14,6 +14,28 @@ const WS_SERVER_URL = 'wss://backend-ntgs.onrender.com';
 const configuration = {
     iceServers: [
         { urls: 'stun:stun.l.google.com:19302' }
+
+        // In script.js
+
+const configuration = {
+    iceServers: [
+        // 1. Keep the Public STUN Server (Essential for initial discovery)
+        { urls: 'stun:stun.l.google.com:19302' },
+        
+        // 2. ⭐ ADD YOUR XIRSYS TURN SERVER HERE ⭐
+        {
+            // Replace with the specific TURN URL given by Xirsys 
+            // (Note: It must start with 'turn:...')
+            urls: 'turn:hk-turn1.xirsys.com:80?transport=udp', 
+            
+            // Replace with the actual username provided by Xirsys
+            username: 'u9VacupJM_E1mXU7gFym0wZuuZJ68t9bHtWrh_qv-mFnzwbIR3PlEzLlIarES25FAAAAAGkA7flzY29yZ2U=',
+            
+            // Replace with the actual credential/password provided by Xirsys
+            credential: '6bb8b2ea-b41a-11f0-b782-0242ac120004'
+        }
+    ]
+};
     ]
 };
 
@@ -240,4 +262,5 @@ const configuration = {
     }
 
 }
+
 
